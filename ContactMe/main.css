@@ -1,0 +1,51 @@
+html, body, h1, form, div{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin-top: 333px;
+    margin-bottom: 333px;
+    font-size: 18px;
+}
+form {
+    border: 2px solid black;
+    width: 333px;
+    height: 333px;
+    margin: auto;
+    margin-top: auto;
+    display: block;
+    border-radius: 8px;
+}
+h1 {
+    text-align: center;
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+input {
+ padding: 6px 0 6px 0;
+ font-size: 15px;
+}
+.inputs {
+    text-align: center;
+}
+.first {
+    margin-bottom: 16px;
+}
+.last {
+    margin-bottom: 16px;
+}
+.email {
+    margin-bottom: 33px;
+}
+.submit {
+    text-align: center;
+}
+input[type=submit] {
+    padding: 0 130px 0 130px;
+}
+    
+
+
+
