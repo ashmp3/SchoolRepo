@@ -1,0 +1,67 @@
+html, body, h1, div, a{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffef3;
+    margin: auto;
+}
+.nav {
+    background-color: #ecac32;
+    overflow: hidden;
+    padding: 16px;
+    color: white;
+    
+}
+.nav a {
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+    text-decoration: none;
+    
+}
+.rightlinks {
+    float: right;
+    
+}
+.boxconcon {
+   padding: 20px 0;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+.boxCon {
+    padding: 0;
+}
+.sillybox {
+    border: 1.5px solid #ecac32;
+    float: left;
+    margin: 30px 7px;
+    border-radius: 5px;
+    width: 300px;
+    padding: 15px;
+}
+button { 
+    background-color: #ecac32;
+    border-radius: 3px;
+    border: 0;
+    color: white;
+}
+.sillybox p {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.sillybox h2 {
+    margin-left: 2%;
+    font-weight: 300;
+}
+button {
+    width: 99%;
+    padding: 8px 0;
+}
