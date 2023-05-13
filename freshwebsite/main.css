@@ -1,0 +1,183 @@
+html,
+body,
+div,
+a,
+h1,
+h2 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, "Calibri Light"
+}
+
+
+#page1 {
+    background-image: url(images/dark-green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    background-color: #000;
+    height: 969px;
+    background-position: center;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 0 6px 0;
+    margin: 0 95px 0 95px;
+    border-bottom: 2px solid white;
+}
+
+.leftnav {
+    font-size: 20pt;
+    font-family: "Calibri Light";
+}
+
+.rightnav {
+    display: flex;
+    align-items: center;
+    font-size: 15pt;
+}
+
+.rightnav a {
+    margin-left: 30px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 218px;
+}
+
+.fresh h1 {
+    font-size: 96pt;
+    border-bottom: 2px solid white;
+    padding: 28px 55px;
+    font-family: "libre franklin", sans-serif;
+    font-weight: 100;
+}
+
+.clean h2 {
+    font-size: 44pt;
+    margin-top: 21px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#page2 {
+    background-color: #000;
+    height: 557spx;
+    display: flex;
+
+
+}
+
+.bread2 {
+    background-image: url(images/human-holding-a-bread-745988.jpg);
+    height: 557px;
+    width: 755px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+
+}
+
+.paragraph2 {
+
+    height: 557px;
+
+    width: auto;
+    font-family: 'Raleway', sans-serif;
+    justify-content: flex-end;
+}
+
+.paragraph2 h2 {
+    font-size: 38pt;
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+    padding: 165px 0 35px 0;
+
+}
+
+.paragraph2 p {
+    font-size: 26pt;
+    width: 80%;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+#page3 {
+    background-color: #1a1a1a;
+    height: 555px;
+    display: flex;
+    flex-direction: row-reverse;
+
+
+}
+
+.pina3 {
+    background-image: url(images/green-pineapple-fruit-with-brown-framed-sunglasses-beside-1161547.jpg);
+    height: 557px;
+    width: 755px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.paragraph3 {
+    margin: auto;
+}
+
+.paragraph3 h2 {
+    font-size: 38pt;
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+    padding: 0 0 35px 0;
+
+}
+
+.paragraph3 p {
+    font-size: 26pt;
+    width: 80%;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+#page4 {
+    background-color: #333;
+    height: 557px;
+    display: flex;
+}
+
+.pasta4 {
+    background-image: url(images/cooked-pasta-on-brown-wooden-bowl-803963.jpg);
+    height: 557px;
+    width: 696px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.paragraph4 {
+    margin: auto;
+}
+
+.paragraph4 h2 {
+    font-size: 38pt;
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+    padding: 60px 0 35px 0;
+
+}
+
+.paragraph4 p {
+    font-size: 26pt;
+    width: 80%;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
