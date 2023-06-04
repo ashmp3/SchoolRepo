@@ -1,0 +1,79 @@
+html,
+body,
+div,
+h1 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #eee;
+
+}
+
+.productBoxs {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #cdcdcd;
+    width: 80%;
+    margin: 15px auto;
+
+}
+
+.productValues {
+    font-size: 25px;
+    font-weight: 500;
+    width: 300px;
+    height: 100%;
+    margin: auto 200px auto 10px;
+    padding: 15px 0;
+}
+
+#button {
+    display: flex;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 195px;
+    width: 218px;
+    padding-left: 10px;
+
+}
+
+.darkMode {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.darkModeBox {
+    background-color: #424242;
+    color: white;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #666;
+
+}
+
+#button.darkBor {
+    border-color: white;
+}
+
+#title.darkMode {
+    border-bottom-color: white;
+}
+
+#title {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 195px;
+    width: 85px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+
+}
