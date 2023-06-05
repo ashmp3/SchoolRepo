@@ -1,0 +1,26 @@
+html,
+body,
+div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#mainDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 45px auto;
+}
+
+.boxStyle {
+    background-color: #333;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.lightBox {
+    background-color: #999;
+}
